@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
   array.each do |item|
-    puts item
+    item = item * item
   end
 end
 
-square_array([1,2,3])
+puts (square_array([1,2,3]))
